@@ -3,7 +3,7 @@
 ## **Apresentação do projeto:**
 Esse é um projeto para incluir pedidos automaticamente e evitar que um vendedor tenha que ficar digitando manualmente todos os pedidos que uma empresa recebe, para isso criei um programa que se inicia via API. Basicamente quando um pedido (arquivo pdf) for incluido na pasta "Pedidos" no Google Drive (ou OneDrive), irá gerar um gatilho que irá enviar uma requisição HTTP para uma API em Python(arquivo app.py) que irá iniciar o trabalho de extrair os dados(arquivo caoa.py) desse PDF e enviar para o Gemini analisar e criar um JSON que poderá ser incluido em meu sistema ERP automaticamente. Esse projeto suporta diversos clientes com PDFs diferentes, já que você pode enviar na API de ativação (arquivo app.py) o comentário explicando onde está cada informação no PDF. 
 
-<a href="https://www.youtube.com/watch?v=tz9c7EgSYvI"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="Video do Projeto" width="100" height="100" target="_blank">Vídeo do Projeto</a>
+<a href="https://www.youtube.com/watch?v=QCeLLzZ6yNE"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="Video do Projeto" width="100" height="100" target="_blank">Vídeo do Projeto</a>
 
 
 ## **Objetivo:**
